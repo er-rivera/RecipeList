@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showMoreContainer"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:background="?android:attr/selectableItemBackground">
+    <TextView
+        android:id="@+id/showMoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/show_more"
+        android:textColor="@color/gray2"
+        android:textSize="18sp" />
+</android.support.constraint.ConstraintLayout>
